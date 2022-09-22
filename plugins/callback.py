@@ -6,7 +6,7 @@ HELP_TEXT = """
 ʜᴇʟʟᴏ [{}](tg://user?id={})
 ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Mr_DiSasTer_XD)...
+ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [⏤͟͞🇧🇩 𝔻𝕒𝕣𝕜 ℕ𝕚𝕝](https://t.me/itzyournil)...
 ━━━━━━━━━━━━━━━━━━━**"""
 
 
@@ -19,8 +19,8 @@ async def home(_, query: CallbackQuery):
             InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🍄 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+            InlineKeyboardButton("🍄 sᴜᴘᴘᴏʀᴛ", url="https://t.me/itzyournil"),
+            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/itzyournil")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"),
@@ -46,13 +46,13 @@ async def others(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🗯️ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TechQuardSupport"),
+                        "🗯️ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/itzyournil"),
                     InlineKeyboardButton(
-                        "🌐 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/TechQuard")
+                        "🌐 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/itzyournil")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🍄 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/Mr_Disaster_Xd"),
+                        "🍄 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/itzyournil"),
                     InlineKeyboardButton(
                         "🍀 ᴏᴛʜᴇʀ ɪɴғᴏ", callback_data="repoinfo")
                 ],
@@ -92,7 +92,7 @@ async def repoinfo(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👾 ʙᴏᴛ ʟɪsᴛs", url="https://t.me/TechQuardBot"),
+                        "👾 ʙᴏᴛ ʟɪsᴛs", url="https://t.me/itzyournil"),
                     InlineKeyboardButton(
                         "🤤 ᴘᴏʀɴ ʜᴜʙ", url="http://t.me/TheNudesHubBot")
                 ],
