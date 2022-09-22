@@ -39,7 +39,7 @@ async def start_(client: Client, message: Message):
 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴀɴᴅ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Mr_DiSasTer_XD)...
+ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [⏤͟͞🇧🇩 𝔻𝕒𝕣𝕜 ℕ𝕚𝕝 ](https://t.me/itzyournil)...
 ━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
     [
@@ -47,11 +47,11 @@ async def start_(client: Client, message: Message):
             InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/itzyournil"),
+            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/itzyournil")
         ],
         [
-            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"),
+            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://te.legra.ph/gg-09-22-9"),
             InlineKeyboardButton("⚕️ ᴍᴏʀᴇ ɪɴғᴏ", callback_data="moreinfo")
         ]
    
@@ -68,8 +68,8 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TechQuardSupport"),
-                InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/itzyournil"),
+                InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/itzyournil"),
             ]
         ]
      ),
@@ -81,6 +81,6 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("ᴘɪɴɢ..... 👀")
     delta_ping = time() - start
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/2256701b54c183ab45e11.jpg",
+        photo=f"https://te.legra.ph/file/5087c497eb40744f1a5ec.png",
         caption=f"ᴘ ᴏ ɴ ɢ ! \n" f"`{delta_ping * 1000:.3f} ᴍs`")
 
