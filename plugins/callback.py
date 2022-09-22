@@ -23,7 +23,7 @@ async def home(_, query: CallbackQuery):
             InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/itzyournil")
         ],
         [
-            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"),
+            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://te.legra.ph/gg-09-22-9"),
             InlineKeyboardButton("⚕️ ᴍᴏʀᴇ ɪɴғᴏ", callback_data="moreinfo")
         ]
    
@@ -86,9 +86,9 @@ async def repoinfo(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🔗 ɢɪᴛʜᴜʙ", url=f"https://github.com/Sumit9969/DarkxMusic"),
+                        "🔗 ɢɪᴛʜᴜʙ", url=f"https://t.me/itzyournil"),
                     InlineKeyboardButton(
-                        "💌 ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
+                        "💌 ʏᴏᴜᴛᴜʙᴇ", url=f"https://www.youtube.com/channel/UCJsr2_2XLrto3E-F5ONTbsw")
                 ],
                 [
                     InlineKeyboardButton(
